@@ -449,6 +449,7 @@ public class RequestInfo implements RequestInfoShim {
     if (RCUtils.isLocalHost(remoteHost)) {
       remoteHost = RCUtils.LOCALHOST;
     }
+    System.out.println("RemoteHost:" + remoteHost);
     return remoteHost;
   }
 
